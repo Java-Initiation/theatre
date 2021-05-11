@@ -17,6 +17,7 @@ public class Theatre {
                 System.out.println("Le theatre est déjà rempli");
             }
             else{
+                System.out.println("La reservation est faite");
                 totalInscrits += 1;
                 recetteTotale += prixPlace;
             }
